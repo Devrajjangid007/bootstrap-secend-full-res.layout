@@ -1,0 +1,272 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    background-color: #dbdbdb;
+}
+#my-navigation{
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+#my-navigation .navbar-toggle{
+    display: block;
+    border: 0;
+}
+#my-navigation .navbar-toggle:hover{
+    background: none;
+    cursor: pointer;
+}
+#my-navigation .navbar-header{
+    float: none;
+
+}
+#my-navigation .navbar-right{
+    float:  left !important;
+}
+#my-navigation .icon-bar-left{
+    float: left;
+}
+#my-navigation .icon-bar{
+    background-color: #fff;
+}
+#my-navigation .icon-right{
+    float: right;
+    position: relative;
+    top: -2px;
+    padding-left: 10px;
+}
+#my-navigation .navbar-brand , #my-navigation ul li a{
+    color: #fff;
+}
+#my-navigation .navbar-brand{
+    font-size: 45px;
+    font-weight: 300;
+}
+.my-container{
+    color: #fff;
+    padding: 0;
+}
+
+
+
+/* carousel image slide */
+.carousel .item{
+    background-image: url("../images/slide01.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.carousel .item2{
+    background-image: url("../images/slide02.jpg");
+}
+.carousel .item3{
+    background-image: url("../images/slide03.jpg");
+}
+.carousel .item4{
+    background-image: url("../images/slide04.jpg");
+}
+.carousel .item5{
+    background-image: url("../images/slide05.jpg");
+}
+
+
+.banner-text{
+    width: 40%;
+    position: absolute;
+    color: #fff;
+    z-index: 20;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+}
+.banner-text hr{
+    width: 50%;
+}
+.banner-text p{
+    letter-spacing: 4px;
+    font-weight: 200;
+}
+.banner-text h1{
+    font-size: 120px;
+    font-weight: 300;
+}
+
+/* two img section*************/
+.two-section{
+    margin-top: 70px ;
+    margin-bottom: 70px ;
+}
+.two-section img{
+    width: 100%;
+}
+.two-section .left , .two-section  .right{
+    width: 95%;
+    background-color: #fff;
+
+
+}
+.two-section .right{
+    float: right;
+    
+}
+.two-section .left h6 , .two-section  .right h6{
+    padding: 30px 0 0 0;
+    margin: 0;
+    letter-spacing: 4px;
+}
+.two-section .left hr , .two-section  .right hr{
+    width: 45%;
+}
+.two-section .left h1 , .two-section  .right h1{
+    font-weight: 300;
+    margin: 0 0 20px 0;
+}
+.two-section .left p, .two-section  .right p{
+    text-align: left;
+    padding: 0 30px 10px 30px;
+    font-size: 13px;
+    font-weight: 300;
+}
+.mybutton{
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+/* full couat section**************** */
+.full-cott{
+    background-image: url("../images/bg.jpg");
+    color: #fff;
+    padding: 50px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.full-cott hr{
+    width: 25%;
+}
+.full-cott p{
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.full-cott h2{
+    font-weight: 300;
+}
+
+/* four img section start*** */
+.four-img-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.four-sec p{
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 14px; 
+}
+.four-sec hr{
+    width: 42%;
+    border-color: rgb(182, 182, 182);
+}
+.four-sec h2{
+    font-weight: 300;
+}
+ .four-image img{
+    width: 95%;
+    border: 10px solid #fff;
+    float: left;
+    margin-bottom: 10%;
+}
+.four-image .left{
+    margin-left: 5%;
+}
+.four-image{
+    padding-top: 50px ;
+}
+/* footer****************** */
+
+.footer{
+    padding: 50px 0;
+    background-color: black;
+    color: rgb(224, 224, 224);
+}
+.footer span{
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.footer p{
+    font-weight: 300;
+    padding-top: 10px;
+    color: gray;
+}
+.footer a{
+    color: rgb(224, 224, 224);
+}
+
+
+@media (max-width:992px){
+    .four-image img{
+        width: 100%;
+    }
+    .four-image .left{
+        margin-left: 0;
+    }
+}
+@media (max-width:767px){
+    .banner-text h1{
+        font-size: 80px;
+    }
+    .banner-text p{
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+    #my-navigation .navbar-brand{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .banner-text{
+        width: 50%;
+        left: 25%;
+        top: 50%;
+    }
+    .banner-text hr{
+        width: 60%;
+    }
+    .my-collapse{
+        padding-left: 15px;
+        border-top: 1px solid white;
+    }
+
+    .two-section .left , .two-section  .right{
+        width: 100%;         
+    }
+    .two-section .left{
+        margin-bottom: 50px;
+    }
+    .full-cott p ,.four-sec p{
+        font-size: 12px;
+    }
+    .full-cott hr{
+        width: 60%;
+
+    }
+    .four-sec hr{
+        width: 60%;
+    }
+}
+@media (max-width:530px){
+    .full-cott p ,.four-sec p{
+        font-size: 10px;
+    }
+    .footer span{
+        font-size: 17px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+}
